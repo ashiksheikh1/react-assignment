@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { MdSportsCricket } from 'react-icons/md';
 import Data from '../Data/Data';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import ExerciseTime from '../ExerciseTime/ExerciseTime';
 import './Activity.css'
 const Activity = () => {
@@ -17,9 +19,12 @@ const Activity = () => {
         setCart(newCart)
 
     }
+    const addBtn = () => {
+        toast("Wow so easy activity completed!")
+    }
     return (
         <div className='players'>
-            <h2> <MdSportsCricket />Players activity</h2>
+            <h2 className='one'> <MdSportsCricket />Players activity</h2>
             <h3>Select today players activity</h3>
             <div className='active-mani'>
 
@@ -31,7 +36,7 @@ const Activity = () => {
 
                 </div>
                 <div className='cart'>
-                    <h2>cart:{active.length}</h2>
+                    {/* <h2>cart:{active.length}</h2> */}
                     <img src="" alt="" />
                     <h2>Ashik Ahmed</h2>
                     <p>Digholia Khulna</p>
@@ -41,7 +46,8 @@ const Activity = () => {
                         <p>Age: 25 years</p>
                     </div>
                     <ExerciseTime cart={cart}></ExerciseTime>
-                    <button className='Activity-btn'>Activity Completed</button>
+                    <button className='Activity-btn' onClick={addBtn}> Activity Completed</button>
+                    <ToastContainer></ToastContainer>
                 </div>
 
             </div>

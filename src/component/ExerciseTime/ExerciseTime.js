@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 
 import { useState } from "react";
-
+import './ExerciseTime.css'
 const ExerciseTime = ({ cart }) => {
     const [time, setTime] = useState([])
     let total = 0;
@@ -21,10 +21,12 @@ const ExerciseTime = ({ cart }) => {
                 <button onClick={() => breakTime(30)}>30</button>
                 <button onClick={() => breakTime(40)}>40</button>
             </div>
-            <div>
-                <h1>Exercise Details:{total}s</h1>
-                <h1>Break time:{time}s</h1>
+            <div className="Exercise">
+                <h4>Exercise Details:{total}s</h4>
+            </div>
 
+            <div className="Exercise">
+                <h4>Break time:{time}s</h4>
             </div>
         </div>
     );
