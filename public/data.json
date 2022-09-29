@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "img": "https://www.thenews.com.pk//assets/uploads/updates/2019-07-05/494110_8847226_shakib-al-hasan_updates.jpg",
+        "name": "Shakib al hasan",
+        "details": "Shakib scored 606 runs and took 11 wickets in World Cup 2019.",
+        "age": "36",
+        "timerequried": "10"
+    },
+    {
+        "id": "2",
+        "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201506/mortaza-647_060415014339.jpg?size=770:433",
+        "name": "Mashrafe Bin Mortaza",
+        "details": "skipper Mashrafe Bin Mortaza has injured his ankle during a practice session.",
+        "age": "35",
+        "timerequried": "20"
+    },
+    {
+        "id": "3",
+        "img": "https://p.imgci.com/db/PICTURES/CMS/192700/192741.jpg",
+        "name": "Mohammad Ashraful",
+        "details": "A moment of history at the Sinhalese Sports Club, as Mohammad Ashraful.",
+        "age": "37",
+        "timerequried": "30"
+    },
+    {
+        "id": "4",
+        "img": "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/07/Tamim-Iqbal.jpg?w=640&ssl=1",
+        "name": "Tamim-Iqbal",
+        "details": "Tamim Iqbal last played a T20I game against Zimbabwe in March 2020",
+        "age": "34",
+        "timerequried": "40"
+    },
+    {
+        "id": "5",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_960/lsci/db/PICTURES/CMS/274000/274021.4.jpg",
+        "name": "Mahamudullah",
+        "details": "He belted 30 runs off just nine balls, loss of his batting rhythm.",
+        "age": "25",
+        "timerequried": "50"
+    },
+    {
+        "id": "6",
+        "img": "https://resources.pulse.icc-cricket.com/photo-resources/2022/05/18/094b3889-364f-46a3-9eb3-53c9410e2085/GettyImages-1240738938.jpg?width=1920&height=1080",
+        "name": "Mushfiqur Rahim",
+        "details": "Mushfiqur Rahim makes history as the Chattogram Test hangs in balance",
+        "age": "33",
+        "timerequried": "60"
+    }
+]

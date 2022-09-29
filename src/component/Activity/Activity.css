@@ -1,0 +1,95 @@
+.cart {
+    background-color: aliceblue;
+}
+
+.players {
+    background-color: rgba(248, 245, 245, 0.219);
+}
+
+.active-mani {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
+.active {
+    /* border: 1px solid pink; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+
+.personal-data {
+    display: flex;
+    background-color: rgba(218, 224, 226, 0.808);
+
+}
+
+.personal-data p {
+    padding: 12px;
+}
+
+.Break-btn button {
+    background-color: rgba(218, 224, 226, 0.808);
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.Break-btn button:hover {
+    background-color: pink;
+}
+
+.Exercise {
+    background-color: rgba(218, 224, 226, 0.808);
+    padding: 20px
+}
+
+.Break-time {
+    background-color: rgba(218, 224, 226, 0.808);
+    padding: 20px
+}
+
+.Activity-btn {
+
+    background-color: rgb(119, 15, 189);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 
+@media only screen and (max-width: 425px) {
+    .active-mani {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+
+    }
+} */
+
+/* @media only screen and (max-width: 800px) {
+    .active-mani {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+
+    }
+} */
+
+/* @media only screen and (max-width: 425px) {
+    .active {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+
+    }
+} */
