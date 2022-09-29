@@ -43,6 +43,15 @@ const Activity = () => {
                     <ExerciseTime cart={cart}></ExerciseTime>
                     <button className='Activity-btn'>Activity Completed</button>
                 </div>
+
+            </div>
+            <div>
+                <h2>1.How does react work</h2>
+                <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code</p>
+                <h2>2.What are the differences between props and state</h2>
+                <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components</p>
+                <h2>3.why use useeffect</h2>
+                <p>The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components</p>
             </div>
         </div>
     );
