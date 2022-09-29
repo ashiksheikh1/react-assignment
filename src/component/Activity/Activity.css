@@ -85,11 +85,11 @@
     }
 } */
 
-/* @media only screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     .active {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
 
     }
-} */
+}
